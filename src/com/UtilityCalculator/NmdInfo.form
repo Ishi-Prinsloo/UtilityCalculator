@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.UtilityCalculator.NmdInfo">
+  <grid id="cbd77" binding="nmdInfoPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+    <margin top="8" left="8" bottom="8" right="8"/>
+    <constraints>
+      <xy x="209" y="35" width="1743" height="1000"/>
+    </constraints>
+    <properties>
+      <minimumSize width="400" height="250"/>
+      <preferredSize width="400" height="250"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="none">
+      <title-color color="-14211653"/>
+    </border>
+    <children>
+      <grid id="e3588" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="8" left="8" bottom="8" right="8"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="dc1b2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="What Is Notified Maximum Demand?"/>
+            </properties>
+          </component>
+          <component id="d604c" class="javax.swing.JTextPane" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <disabledTextColor color="-7171436"/>
+              <doubleBuffered value="true"/>
+              <editable value="false"/>
+              <opaque value="false"/>
+              <text value="The NMD will be based on the measured maximum demand, or if demand is not measured, on the equivalent demand that is based on the installed circuit breaker size."/>
+            </properties>
+          </component>
+          <component id="86810" class="javax.swing.JTextPane" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="12"/>
+              <opaque value="false"/>
+              <text value="Standard procedure for RMS is to calculate the NMD based on the installed capacity as per our records (SLD)"/>
+            </properties>
+          </component>
+          <component id="bf94a" class="javax.swing.JTextPane" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <caretColor color="-10461088"/>
+              <disabledTextColor color="-7171436"/>
+              <editable value="false"/>
+              <focusable value="false"/>
+              <foreground color="-12566464"/>
+              <inheritsPopupMenu value="true"/>
+              <opaque value="false"/>
+              <selectedTextColor color="-131585"/>
+              <text value="The Notified maximum demand (NMD) is the capacity in kVA, measured over a 30-minute integration period, per point of delivery/supply that the customer requests and Eskom contractually agrees to make available during all time periods"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.UtilityCalculator.NmdFunction">
+  <grid id="27dc6" binding="panelNmd" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="32" left="32" bottom="32" right="32"/>
+    <constraints>
+      <xy x="20" y="20" width="657" height="495"/>
+    </constraints>
+    <properties>
+      <enabled value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="f9e78">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="2" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="8"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="7f24a">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="1" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="48"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <grid id="dd863" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="8" left="8" bottom="8" right="8"/>
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="90c51" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Voltage"/>
+            </properties>
+          </component>
+          <component id="b14dc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="8" height="8"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Breaker Size"/>
+            </properties>
+          </component>
+          <component id="fad60" class="javax.swing.JTextField" binding="breakerSizeText">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="76b51" class="javax.swing.JComboBox" binding="volts" custom-create="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="60" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-7171436"/>
+              <editable value="true"/>
+              <focusable value="false"/>
+              <foreground color="-131585"/>
+              <inheritsPopupMenu value="false"/>
+            </properties>
+          </component>
+          <component id="21d0" class="javax.swing.JButton" binding="calculateButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Calculate"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="145bd">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="8"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <grid id="4569a" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8700f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="20"/>
+              <text value="NMD"/>
+            </properties>
+          </component>
+          <vspacer id="181f2">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="143ac" class="javax.swing.JLabel" binding="nmdValue">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="2" height="2"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="0 kVa"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="3bcc2" class="javax.swing.JRadioButton" binding="threePhase">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <label value="Three Phase"/>
+          <name value="Three Phase"/>
+          <selected value="true"/>
+          <text value="Three Phase"/>
+        </properties>
+      </component>
+      <component id="34d76" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="28"/>
+          <text value="Notified Maximum Demand (NMD)"/>
+        </properties>
+      </component>
+      <component id="2b7d4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono"/>
+          <text value="Calculate notified maximum demand(kVa) based on circuit breaker rating."/>
+        </properties>
+      </component>
+      <component id="d1992" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Breaker Rating:"/>
+        </properties>
+      </component>
+      <component id="77eff" class="javax.swing.JRadioButton" binding="singlePhase">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <label value="Single Phase"/>
+          <text value="Single Phase"/>
+        </properties>
+      </component>
+      <component id="df001" class="javax.swing.JButton" binding="info">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="16" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Info"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="breakerRating">
+      <member id="77eff"/>
+      <member id="3bcc2"/>
+    </group>
+  </buttonGroups>
+</form>
