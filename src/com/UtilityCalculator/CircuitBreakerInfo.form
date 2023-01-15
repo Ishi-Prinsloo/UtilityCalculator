@@ -44,7 +44,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="A circuit breaker is an electrical safety device designed to protect an electrical circuit from damage caused by an overcurrent or short circuit.  Its basic function is to interrupt current flow to protect equipment and to prevent the risk of fire. "/>
+          <text value="Add some info about circuit breaker sizes here... "/>
         </properties>
       </component>
       <component id="8d779" class="javax.swing.JTextPane" default-binding="true">
@@ -56,7 +56,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="The amount of current flowing through any given electrical wire is determined by the demand; if you turn on any equipment that consumer energy, the demand increases. A circuit breaker cuts the power going through it if the demand EXCEEDS a certain amount. There are several sizes of circuit breakers for different electrical capacities. A consumer Circuit Breaker is based on installed capacity (i.e. how much energy they CAN use.) "/>
+          <text value="some more info... "/>
         </properties>
       </component>
       <component id="ca242" class="javax.swing.JTextPane" default-binding="true">
@@ -68,7 +68,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="In commercial, industrial and retail buildings, premises are often fitted based on m² and the needs of the tenant that first occupies that space. A high power user may vacate this space and the next tenant &quot;inherits&quot; their equipment, but doesn't utilize the full capacity of the breaker. The new tenant is still liable for the costs of the access to that capacity if the tariff structure includes either a breaker or a NMD charge"/>
+          <text value="Even more info..."/>
         </properties>
       </component>
       <vspacer id="d7ece">
@@ -87,7 +87,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="In such cases, we can review the new tenant's consumption after a few periods of ACTUAL consumption and advise if they would benefit from a &quot;virtual downgrade&quot; of their breaker size. "/>
+          <text value=".... "/>
         </properties>
       </component>
       <component id="dffbe" class="javax.swing.JTextPane" default-binding="true">
@@ -99,7 +99,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="On some tariffs structure, only a downgrade will be required. On others, the downgrade may be done to facilitate a tariff migration. On some structures, the breaker plays no role in the costs."/>
+          <text value="... "/>
         </properties>
       </component>
       <component id="dcab7" class="javax.swing.JTextPane" default-binding="true">
@@ -111,7 +111,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="ALWAYS confirm the effect / tariff structure BEFORE advising a client."/>
+          <text value="..."/>
         </properties>
       </component>
       <component id="53aa1" class="javax.swing.JTextPane" default-binding="true">
@@ -123,7 +123,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="Virtual downgarde must be requested via the RMS Virtual Downgrade request form, drafted by RMS and signed by the client."/>
+          <text value="..."/>
         </properties>
       </component>
     </children>
