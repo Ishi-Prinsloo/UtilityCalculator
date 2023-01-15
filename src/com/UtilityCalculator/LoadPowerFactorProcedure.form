@@ -37,7 +37,7 @@
             <properties>
               <editable value="false"/>
               <opaque value="false"/>
-              <text value="When a tenant who has demand requires either an estimation (e.g. meter not read for any reason), or a reconcilliation (e.g. to rectify historic bills) a LPF % should be calculated based on availble data. The LPF % should be used to calculate KVA for the period's DEMAND is required."/>
+              <text value="Add some company procedure concering Load Power Factor here..."/>
             </properties>
           </component>
           <component id="e30c8" class="javax.swing.JTextPane" default-binding="true">
@@ -49,7 +49,7 @@
             <properties>
               <editable value="false"/>
               <opaque value="false"/>
-              <text value="LPF can also be used in tariff comparisons. If tenant doesn't have a meter registering demand but is considering a tariff that includes the charge, a KVA needs to be estimated based on an industry standard LPF % (40 - 70%), depending on the tenant. This should be stated as an ESTIMATE and accompanied by a recommendation for a remote meter, to allow accurate analysis."/>
+              <text value="And more procedure..."/>
             </properties>
           </component>
         </children>
