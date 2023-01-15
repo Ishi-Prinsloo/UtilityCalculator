@@ -27,7 +27,7 @@
             <properties>
               <editable value="false"/>
               <opaque value="false"/>
-              <text value="Load-power factor is defined as the ratio of the average load over a given period to the maximum demand (peak load) occurring in that period.  In other words, the Load-Power Factor is the ratio of total energy (kWh) used over a specific period of time to the total possible energy available within that period (i.e. peak demand over that specific time period).  The value of the load-power factor is always less than 1 (100%) because the value of average load is always smaller than the maximum demand.  If your load-power factor ratio is above 0.75 your electrical usage is reasonably efficient. If the load-power factor is below 0.5, you have periods of very high usage (demand) and a low utilization rate."/>
+              <text value="Add some load power factor info here..."/>
             </properties>
           </component>
         </children>
