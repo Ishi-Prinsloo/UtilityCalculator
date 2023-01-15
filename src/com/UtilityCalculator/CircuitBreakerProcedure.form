@@ -21,7 +21,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="* We use highest KWH regsitered on graph to do this calculation OR average based on highest 3 readings"/>
+          <text value="Add some company procedure here..."/>
         </properties>
       </component>
       <component id="561fe" class="javax.swing.JTextPane" default-binding="true">
@@ -33,7 +33,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="* While we can soft downgrade Amp Capacity on the system, we cannot soft downgrade phase. "/>
+          <text value="More procedure... "/>
         </properties>
       </component>
       <component id="eb43c" class="javax.swing.JTextPane" default-binding="true">
@@ -45,7 +45,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="* Tariffs structure typically accommodate CB ratings 20A + and reducing to less is ineffectual"/>
+          <text value="and more..."/>
         </properties>
       </component>
       <component id="7f2f9" class="javax.swing.JTextPane" default-binding="true">
@@ -57,7 +57,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="Breaker should be exposed to a maximum of 80% of the rated amperage. It's fine to exceed this for short periods of time, but continuous current above this amount could cause enough heat to trip the breaker."/>
+          <text value="...."/>
         </properties>
       </component>
       <component id="41666" class="javax.swing.JTextPane" default-binding="true">
@@ -69,7 +69,7 @@
         <properties>
           <editable value="false"/>
           <opaque value="false"/>
-          <text value="Breakers should be sized at 125% for a continuous load and 100% for a non-continuous load, which comes out the same when you multiply the breaker size by 0.8. This is then rounded up to the nearest 10"/>
+          <text value="..."/>
         </properties>
       </component>
       <component id="31431" class="javax.swing.JLabel">
@@ -78,7 +78,7 @@
         </constraints>
         <properties>
           <font size="22"/>
-          <text value="RMS virtual downgrade procedures"/>
+          <text value="..."/>
         </properties>
       </component>
       <vspacer id="8a1a9">
