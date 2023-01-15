@@ -42,7 +42,7 @@
               <doubleBuffered value="true"/>
               <editable value="false"/>
               <opaque value="false"/>
-              <text value="The NMD will be based on the measured maximum demand, or if demand is not measured, on the equivalent demand that is based on the installed circuit breaker size."/>
+              <text value="Add some NMD info here..."/>
             </properties>
           </component>
           <component id="86810" class="javax.swing.JTextPane" default-binding="true">
@@ -55,7 +55,7 @@
               <editable value="false"/>
               <font size="12"/>
               <opaque value="false"/>
-              <text value="Standard procedure for RMS is to calculate the NMD based on the installed capacity as per our records (SLD)"/>
+              <text value="and more info..."/>
             </properties>
           </component>
           <component id="bf94a" class="javax.swing.JTextPane" default-binding="true">
@@ -73,7 +73,7 @@
               <inheritsPopupMenu value="true"/>
               <opaque value="false"/>
               <selectedTextColor color="-131585"/>
-              <text value="The Notified maximum demand (NMD) is the capacity in kVA, measured over a 30-minute integration period, per point of delivery/supply that the customer requests and Eskom contractually agrees to make available during all time periods"/>
+              <text value="Even more info..."/>
             </properties>
           </component>
         </children>
